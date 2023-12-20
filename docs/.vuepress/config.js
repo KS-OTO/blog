@@ -168,7 +168,7 @@ module.exports = {
         //页脚信息
         footer: {
             createYear: 2020, // 博客创建年份
-            copyrightInfo: '秋澪冬安 | <a href="https://beian.miit.gov.cn" target="_blank">蜀ICP备2022009760号-1</a> | <img src="/assets/img/beian_icon.png" style="vertical-align: text-top;margin-right: 2px;"/><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012402000786">川公网安备51012402000786号</a>', // 博客版权信息，支持a标签
+            copyrightInfo: '秋澪冬安 | <a href="https://beian.miit.gov.cn" target="_blank">蜀ICP备2022009760号-0</a>', // 博客版权信息，支持a标签
         },
         // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
         lastUpdated: "上次编辑",

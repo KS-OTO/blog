@@ -109,7 +109,7 @@ export default hopeTheme(
       vPre: true,
 
       // 取消注释它们如果你需要 TeX 支持
-      // markdownMath: {
+      // math: {
       //   // 启用前安装 katex
       //   type: "katex",
       //   // 或者安装 mathjax-full
@@ -146,31 +146,10 @@ export default hopeTheme(
       // sandpack: true,
     },
 
-    // 插件配置
+    // 在这里配置主题提供的插件
     plugins: {
       // 公告插件
       notice: [
-        {
-          key: "notice_20241128_01",
-          showOnce: true,
-          path: "/",
-          title: "🔔 博客更名通知",
-          content: `
-            <div style="margin-bottom: 8px;">🏷️ 博客名称已由</div>
-            <div><strong>秋澪冬安</strong></div>
-            <div>⬇️⬇️更名为⬇️⬇️</div>
-            <div><strong>薄荷屋</strong></div>
-            <hr />
-            <div style="margin-bottom: 8px;">🏷️ 博客评论系统数据迁移提醒</div>
-            <div>
-              数据库从
-              <strong>leancloud</strong>
-              迁移至
-              <strong>sqlite</strong>
-            </div>
-            <div>如果评论有什么问题，请在评论区或者GitHub issues 中联系我</div>
-          `,
-        },
         {
           key: "notice_20241101_01",
           path: "/pages/703eb3/",
@@ -222,7 +201,7 @@ export default hopeTheme(
 
       // 图标
       icon: {
-        assets: "//at.alicdn.com/t/c/font_4830723_f0wzjhi9xgk.css",
+        assets: "//at.alicdn.com/t/c/font_4830723_aqtwv5u7p0d.css",
       },
 
       // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

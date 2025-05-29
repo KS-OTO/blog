@@ -1,5 +1,7 @@
 name: Deploy blog 🚀
 on: [push]
+permissions:
+  contents: read
 jobs:
   Deploy:
     runs-on: ubuntu-latest
